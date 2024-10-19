@@ -5,6 +5,8 @@ date: "2024-02-10"
 tags: ["paper", "machine learning", "pose estimation", "graphics", "motion capture"]
 ---
 
+[Paper Link](https://arxiv.org/pdf/2410.11520)
+
 # Outline
 - 'Single shot' performance-capture pipeline for generating motion capture data from video images
 - No need for specialized equipment, multiple takes, or manual editing
