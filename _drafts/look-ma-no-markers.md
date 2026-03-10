@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Notes on 'Look Ma, no markers: holistic performance capture without the hassle'"
 date: "2024-02-10"
 tags: ["paper", "machine learning", "pose estimation", "graphics", "motion capture"]
@@ -8,6 +8,7 @@ tags: ["paper", "machine learning", "pose estimation", "graphics", "motion captu
 [Paper Link](https://arxiv.org/pdf/2410.11520)
 
 # Outline
+
 - 'Single shot' performance-capture pipeline for generating motion capture data from video images
 - No need for specialized equipment, multiple takes, or manual editing
 - Uses a pipeline which combines a DNN for parametric pose estimation, followed by a refinement and optimization process based on a *parametric* human model
@@ -16,6 +17,7 @@ tags: ["paper", "machine learning", "pose estimation", "graphics", "motion captu
 # Synthetic dataset
 
 The DNN is fit on a synthetic dataset generated using a parametric model of the human body and face. This has a number of advantages:
+
 - Direct access to ground-truth 3D point locations of the mesh generated from the model (no need for manual labeling)
 - Ability to easily generate a large dataset
 
